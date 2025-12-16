@@ -1,12 +1,10 @@
-function App() {
-  function Greeting({ name }) {
-    return <h2>Hello {name}</h2>;
-  }
+import UserCard from "./components/UserCard";
 
+function App() {
   return (
-    <>
-      <Greeting name="은관" />
-    </>
+    <div>
+      <UserCard name="은관" job="dev" />
+    </div>
   );
 }
 
