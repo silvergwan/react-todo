@@ -1,9 +1,9 @@
-import Counter from "./pages/Counter";
+import NameInput from "./pages/NameInput";
 
 function App() {
   return (
     <>
-      <Counter />
+      <NameInput />
     </>
   );
 }
