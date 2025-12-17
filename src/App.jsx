@@ -1,11 +1,9 @@
-import NameInput from "./pages/NameInput";
-import Toggle from "./components/Toggle";
+import LoginToggle from "./pages/LoginToggle";
 
 function App() {
   return (
     <>
-      <NameInput />
-      <Toggle />
+      <LoginToggle />
     </>
   );
 }
