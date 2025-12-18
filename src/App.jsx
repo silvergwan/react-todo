@@ -1,9 +1,9 @@
-import ImgChange from "./pages/imgChange";
+import UserList from "./components/UserList";
 
 function App() {
   return (
     <>
-      <ImgChange />
+      <UserList />
     </>
   );
 }
