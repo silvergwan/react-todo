@@ -1,9 +1,9 @@
-import LoginToggle from "./pages/LoginToggle";
+import ImgChange from "./pages/imgChange";
 
 function App() {
   return (
     <>
-      <LoginToggle />
+      <ImgChange />
     </>
   );
 }
